@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --fix eslint src/*.js",
     "prettier": "prettier --write eslint src/*.js",
+    "parcel": "parcel index.html",
     "build": "parcel build src/index.html --out-dir docs --public-url /storytelling-first-homework-2"
   },
   "author": "",
@@ -23,6 +24,7 @@
     "prettier": "^1.14.2"
   },
   "dependencies": {
-    "d3": "^5.7.0"
+    "d3": "^5.7.0",
+    "parcel": "^1.9.7"
   }
 }
