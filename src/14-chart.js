@@ -1,4 +1,6 @@
 import * as d3 from 'd3'
+
+(function () {
 var margin = { top: 20, right: 20, bottom: 40, left: 70 }
 
 var width = 600 - margin.left - margin.right
@@ -70,3 +72,4 @@ function ready(datapoints) {
     .attr('transform', 'translate(0,' + height + ')')
     .call(xAxis)
 }
+})()

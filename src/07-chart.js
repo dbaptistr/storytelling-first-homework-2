@@ -1,4 +1,6 @@
 import * as d3 from 'd3'
+
+(function () {
 // Delete this line, redo it.
 var margin = { top: 50, right: 50, bottom: 50, left: 50 }
 
@@ -22,3 +24,4 @@ svg
   .attr('x', 0)
   .attr('y', 0)
 // DO NOT CHANGE THIS SECTION
+})()

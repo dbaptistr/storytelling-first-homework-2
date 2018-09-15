@@ -1,4 +1,6 @@
 import * as d3 from 'd3'
+
+(function () {
 // Here is your data
 var widthScale = d3
   .scaleLinear()
@@ -44,3 +46,4 @@ svg
   .attr('fill', function(d) {
     return colorScale(d.continent)
   })
+})()

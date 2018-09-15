@@ -1,4 +1,6 @@
 import * as d3 from 'd3'
+
+(function () {
 // Build your SVG here
 // using all of that cut-and-paste magic
 var margin = { top: 50, right: 50, bottom: 50, left: 50 }
@@ -58,3 +60,4 @@ function ready(datapoints) {
     .attr('transform', 'translate(0,' + height + ')')
     .call(xAxis)
 }
+})()

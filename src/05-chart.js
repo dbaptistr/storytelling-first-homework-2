@@ -1,4 +1,6 @@
 import * as d3 from 'd3'
+
+(function () {
 var height = 200
 var width = 400
 
@@ -47,3 +49,4 @@ svg
     return colorScale(d.animal)
   })
   .attr('opacity', 0.5)
+})()
